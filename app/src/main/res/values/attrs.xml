@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Height">
+        <attr name="points" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="defaultValue" format="integer" />
+        <attr name="textBottomPadding" format="integer" />
+        <attr name="cornerRadius" format="integer" />
+        <attr name="minHeight" format="integer" />
+        <attr name="step" format="integer"/>
+        <attr name="drawnStep" format="integer"/>
+        <attr name="unit" format="string"/>
+        <attr name="defaultImage"/>
+        <attr name="minImage" format="reference"/>
+        <attr name="maxImage" format="reference"/>
+        <attr name="progressColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="clockwise" format="boolean" />
+        <attr name="enabled" format="boolean" />
+        <attr name="touchDisabled" format="boolean" />
+        <attr name="textEnabled" format="boolean" />
+        <attr name="indicator_width" format="float" />
+        <attr name="imageEnabled" format="boolean" />
+
+    </declare-styleable>
+    <declare-styleable name="Weight">
+        <attr name="progress" format="integer" />
+        <attr name="label" format="string" />
+        <attr name="default_image" format="reference"/>
+        <attr name="main_circle_color" format="color" />
+        <attr name="indicator_color" format="color" />
+        <attr name="progress_primary_color" format="color" />
+        <attr name="progress_secondary_color" format="color" />
+        <attr name="label_size" format="integer" />
+        <attr name="label_color" format="color" />
+        <attr name="indicator_width" />
+        <attr name="start_offset" format="integer" />
+        <attr name="padding" format="integer" />
+        <attr name="max"  />
+        <attr name="min" format="integer" />
+        <attr name="progress_radius" format="float" />
+    </declare-styleable>
+    <declare-styleable name="SemiCircle">
+    </declare-styleable>
+</resources>
